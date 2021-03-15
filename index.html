@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="default-styles.css">
+	<link  href="css/bootstrap-formhelpers.min.css"  rel="stylesheet" media="screen">
+	<link rel="shortcut icon" href="images/Logo_Saperavi.svg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--для адаптаации-->
+	<title>Саперави</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+
+	
+	
+	
+</head>
+<body>
+<!-- Header  --> 
+
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="user">
+						<a  href="index.html" ><img src="images/Logo.png " alt="" > </a>
+				</div>
+				
+				<div class="nav" id="nav">
+					<a class="nav__link" href="menu.html">Меню</a>
+					<a class="nav__link" href="#about">О кафе</a>
+					<a class="nav__link" href="#news">Новости</a>
+					<a class="nav__link" href="#gallery">Галерея</a>
+					<a class="nav__link nav__link--btn" href="tel:+79375641825">Cвязаться</a>  
+					<!--<a class="nav__link" href="#"> г. Волгоград, ул.Комсомольская, 2А/1</br>+7 (8442) 59-49-39</a>-->
+				</div>
+<!--Разобраться-->
+				<button class="burger" type="button" id="navToggle">
+					<img class="burger_icon" src="images/burger.svg" alt="">
+				</button>
+			</div>
+		</div>
+	</header>
+<!-- Header  --> 
+<!-- Intro  --> 
+	<section class="intro">
+		<div class="container">
+			<div class="intro__inner">
+				<div class="intro__content">
+					<h2 class="intro__subtitle">Мы готовим для вас</h2>
+					<h1 class="intro__title">Saperavi</h1>
+					<div class="intro__text">грузинская и европейская кухня</div>
+
+
+
+					<a class="btn" href="#" data-modal="#modal_hire_me">Забронировать стол</a>
+					<button class="btn" type="button" data-modal="#modal_dostavka" >Заказать доставку</button>
+				</div>
+				<div class="flex">
+					<img class="intro__photo" src="images/Item_img.png" alt="" >
+				</div>
+			</div>			
+		</div>
+	</section>
+<!-- Intro  --> 
+
+
+<!-- Works -->
+	<div class="works">
+		<div class="container">
+				
+				<a  class="work__menu"href="menu.html" ><h1 class="intro__title">Меню</h1></a>
+				
+			<div class="portfolio" id="portfolio">	
+				<div class="portfolio__col" data-cat="Xach">
+					<div class="work">
+						<img class="work__image" src="images/M_xachypyri.png" alt="">
+						<div class="work__content">
+							<div class="work__tittle">Грузинская выпечка</div>
+							
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Salat">
+					<div class="work">
+						<img class="work__image" src="images/M_salat.png" alt="">
+						<div class="work__content">
+							<div class="work__tittle">Салаты</div>
+							
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Xach">
+					<div class="work">
+						<img class="work__image" src="images/M_shashlyk.png" alt="">
+						<div class="work__content">
+							<div class="work__tittle">Шашлыки</div>
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Desert">
+					<div class="work">
+						<img class="work__image" src="images/M_desert.png" alt="">
+						<div class="work__content">
+							<div class="work__tittle">Десерты</div>
+							
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Salat">
+					<div class="work">
+						<img class="work__image" src="images/M_xinckaly.png" alt="">
+						<div class="work__content">
+							<div class="work__tittle">Хинкалии</div>
+							
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Desert">
+					<div class="work">
+						<img class="work__image" src="images/M_supe.png" alt="">
+						<div class="work__content">
+							<div class="work__tittle">Супы</div>
+						</div>
+					</div>
+				</div>
+			</div><!--portfolio--> 
+		</div><!--container"-->
+	</div>
+	<!-- Works -->
+
+<!-- about -->
+		<section class="about">
+		<p><a name="about"></a></p>
+		<div class="container">
+			<h3 class="about_tittle_mobile">О Saperavi</h3>
+			<div class="about_inner">
+
+				<div class="about_saperavi_photo">
+					<img class="img" src="images/S_about.png">
+				</div>
+				<div class="about_content">
+					<h3 class="about_tittle">О Saperavi</h3>
+					<div class="about_text">
+						<p> 
+							<b>Саперави</b> - грузинское кафе в самом центре Волгограда. </br>Посетите кафе с семьёй в День Рождения или на Новый Год, мы всегда будем вам рады!
+						
+						
+							Разнообразная грузинско-европейская кухня подойдёт всем: большой выбор хачапури для вас, а молочные коктейли и чизкейк для детей. Винная карта идеально сочетается с блюдами на мангале.	
+						 
+							Просторный зал и летние веранды позволят провести любое торжество: свадьба, корпоратив или выпускной.
+							<b>Один вечер в Саперави и вы захотите вернуться к нам вновь.</b>
+						</p>	
+						 
+						<a class="btn btn_about" href="#" data-modal="#modal_hire_me">Забронировать стол</a>
+					</div> 
+					
+					
+				</div><!-- about_content -->
+
+			</div><!-- about_inner -->
+				
+		</div><!-- container -->
+	</section>
+<!-- about -->
+
+<!-- Gallery -->
+<section class="gallery">
+	<p><a name="gallery"></a></p>
+	<div class="container">	<h1 class="intro__title padding text-center">Галерея</h1>
+		<div class="slider-container">
+
+			<div class="slider-top">
+				<div class="slider-buttons">
+					<button class="swiper-button-prev"></button>
+					<button class="swiper-button-next"></button>
+				</div>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide card">
+						<img src="images/G1.jpg">
+					</div>
+					<div class="swiper-slide card">
+						<img src="images/G2.jpg">
+					</div>
+					<div class="swiper-slide card">
+						<img src="images/G3.jpg">
+					</div>
+					<div class="swiper-slide card">
+						<img src="images/photo-slide.jpg">
+					</div>
+					<div class="swiper-slide card">
+						<img src="images/G4.jpg">
+					</div>
+					<div class="swiper-slide card">
+						<img src="images/G5.jpg">
+					</div>
+					<div class="swiper-slide card">
+						<img src="images/G6.jpg">
+					</div>
+					<div class="swiper-slide card">
+						<img src="images/G7.jpg">
+					</div>
+					<div class="swiper-slide card">
+						<img src="images/G8.jpg">
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Gallery -->
+
+
+<!-- News -->
+	<section class="news">
+		<p><a name="news"></a></p>
+		<div class="container">
+			
+			<div class="news__header">
+				<h3><div class="news__title">Новости и Акции</div></h3>
+				<div class="news__text">Новости и Акции</div>
+			</div>
+
+			<div class="articles">
+				<div class="articles__col">
+					<div class="articles__item">
+						<div class="articles__header">
+							 <time class="articles__date">15<br>Апреля</time>
+							 <a href="#">
+							 	<img class="articles__photo" src="images/A_karty.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title"><a href="#">Дарим дисконтные карты</a></h4>
+							<div class="articles__cat">Акция</div>
+							<div class="articles__text"> 
+								<!--<p>Теперь каждый наш гость 	может получить постоянную скидочную карту гостя с 5% скидкой при заказе от 2000р!
+								Приезжайте обедать в кафе или заказывайте доставку на дом и мы подарим вам карту.
+								</p> -->
+								
+								<p>Теперь каждый наш гость 	может получить постоянную скидочную карту гостя с 5% скидкой при заказе от 2000р!Приезжайте обеда... </p>
+							</div>
+						</div>
+						<a class="btn btn--sm" href="#" data-modal="#modal_project1">Подробнее</a>
+					</div>
+				</div>
+				<div class="articles__col">
+					<div class="articles__item">
+						<div class="articles__header">
+							 <time class="articles__date">10<br>Апреля</time>
+							 <a href="#">
+							 	<img class="articles__photo" src="images/A_xin.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title"><a href="#">Щедрые Хинкалии</a></h4>
+							<div class="articles__cat">Акция</div>
+							<div class="articles__text"> 
+								<p>Мы  спешим вас порадовать  нашей новой акцией “Щедрые хинкалии” , При заказе хинкалей 0т 10 шт фруктовая тарелка в подарок...</p>
+
+							</div>
+						</div>
+						<a class="btn btn--sm" href="#" data-modal="#modal_project2">Подробнее</a>
+					</div>
+				</div>
+				<div class="articles__col">
+					<div class="articles__item">
+						<div class="articles__header">
+							 <time class="articles__date">5<br>Апреля</time>
+							 <a href="#">
+							 	<img class="articles__photo" src="images/A_menu.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title"><a href="#">Новое меню</a></h4>
+							<div class="articles__cat">Новости</div>
+							<div class="articles__text"> 
+								<!--<p>
+									Мы с радостью и гордостью хотим представить вашему вниманию наше новое меню, над которым с любовью и без устали трудилась вся команда "Саперави".
+								
+
+								<p>Мы  спешим вас порадовать  нашей новой акцией “Щедрые хинкалии” , При заказе хинкалей 0т 10 шт фруктовая тарелка в подаро...</p></p> -->
+								<p>Мы с радостью и гордостью хотим представить вашему вниманию наше новое меню, над которым с любовью и без устали трудилась...</p>
+								
+				
+
+							</div>
+						</div>
+						<a class="btn btn--sm" href="#" data-modal="#modal_project3">Подробнее</a>
+					</div>
+				</div>
+			</div><!-- articles -->
+				
+		</div><!-- container -->
+	</section><!-- News -->
+
+<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				
+				<div class="footer__credits">
+					<div class="footer__copyright"> 
+						<p>Грузинская и европейская кухня</p>
+						<p>Время работы :</br> Вс-Чт с 11:00 до 24:00 | Пт-Сб 11:00 до 02:00</p>
+						<p>Все права защищены. 2018–2020 &copy; Саперави.</p>
+					</div>
+					
+
+					<div class="footer__social">
+						
+						<a href="#" target="_blank">
+							<img src="images/instagram.svg" height="30" alt="">
+						</a>
+						
+						<p>@saperavivlg</p>
+							
+						
+					</div>
+				</div> <!--footer__credits-->
+
+				<nav class="footer__nav">
+
+
+					<a class="footer__nav-link" href="menu.html">Меню</a>
+					<a class="footer__nav-link" href="#about">О кафе</a>
+					<a class="footer__nav-link" href="#news">Новости</a>
+					<a class="footer__nav-link" href="#gallery">Галерея</a>
+					<a class="footer__nav-link footer__nav-link--btn" href="#" data-modal="#modal_hire_me">Забронировать стол</a>  
+				</nav>
+
+
+			</div> <!--footer__inner-->
+		</div><!-- container -->
+	</footer>
+
+<!-- Modals -->
+
+<div class="modal"  id="modal_project1">
+	<div class="modal_dialog">
+			
+			<button class="modal__close" type="button" data-close>
+				<img src="images/close.svg" alt="close">
+			</button>
+
+		<div class="modal-work">
+			<div class="modal-work__preview">
+				<img class="modal-work__photo"	src="images/Akci-1.png" alt="">
+			</div>
+			<div class="modal-work__content">
+				
+				<div class="modal-work__header">
+				<h3 class="modal-work__title text-center">Дарим дисконтные карты</h3>
+				<div class="modal-work__info">C 16 апреля по 1 мая | 2020</div>
+				</div>
+
+
+				<div class="modal-work__text">
+					<p>
+						Теперь каждый наш гость может получить постоянную скидочную карту гостя с 5% скидкой при заказе от 2000р!Приезжайте обедать к нам и получайте свою карту постоянного гостя !
+					</p>
+					<p>
+						<b>Саперави</b> - грузинское кафе в самом центре Волгограда. </br>Посетите кафе с семьёй в День Рождения или на Новый Год, мы всегда будем вам рады!
+					</p>
+				</div>
+		
+			</div><!--modal-work__content-->
+		</div><!--modal-work-->
+
+	</div><!--modal__dialog-->
+</div> <!--modal-->
+
+<div class="modal"  id="modal_project2">
+	<div class="modal_dialog">
+			
+			<button class="modal__close" type="button" data-close>
+				<img src="images/close.svg" alt="close">
+			</button>
+
+		<div class="modal-work">
+			<div class="modal-work__preview">
+				<img class="modal-work__photo" src="images/Akci-2.png" alt="">
+				
+			</div>
+			<div class="modal-work__content">
+				
+				<div class="modal-work__header">
+				<h3 class="modal-work__title text-center">Щедрые Хинкалии</h3>
+				<div class="modal-work__info">C 10 апреля по 25 мая | 2020</div>
+				</div>
+
+
+				<div class="modal-work__text">
+					<p>
+						<p>Мы  спешим вас порадовать  нашей новой акцией “Щедрые хинкалии” , При заказе хинкалей 0т 10 шт фруктовая тарелка в подарок, а при заказаке от суммы 2000р карта в подарок.</p>
+					</p>
+					<p>
+						<b>Саперави</b> - грузинское кафе в самом центре Волгограда. </br>Посетите кафе с семьёй в День Рождения или на Новый Год, мы всегда будем вам рады!
+					</p>
+				</div>
+				
+			</div><!--modal-work__content-->
+		</div><!--modal-work-->
+
+	</div><!--modal__dialog-->
+</div> <!--modal-->
+
+<div class="modal"  id="modal_project3">
+	<div class="modal_dialog">
+			
+			<button class="modal__close" type="button" data-close>
+				<img src="images/close.svg" alt="close">
+			</button>
+
+		<div class="modal-work">
+			<div class="modal-work__preview">
+				<img class="modal-work__photo" src="images/Akcii-3.png" alt="">
+			</div>
+			<div class="modal-work__content">
+				
+				<div class="modal-work__header">
+				<h3 class="modal-work__title text-center">Новое меню</h3>
+				<div class="modal-work__info">C 6 апреля по июль | 2020</div>
+				</div>
+
+
+				<div class="modal-work__text">
+					<p>
+						Мы с радостью и гордостью хотим представить вашему вниманию наше новое меню, над которым с любовью и без устали трудилась вся команда "Саперави".
+					</p>
+					<p>
+						<b>Саперави</b> - грузинское кафе в самом центре Волгограда. </br>Посетите кафе с семьёй в День Рождения или на Новый Год, мы всегда будем вам рады!
+					</p>
+				</div>
+							</div><!--modal-work__content-->
+		</div><!--modal-work-->
+
+	</div><!--modal__dialog-->
+</div> <!--modal-->
+
+
+<div class="modal" id="modal_dostavka">
+	<div class="modal_dialog">
+		<div class="dostavka">
+
+			<button class="modal__close" type="button" data-close>
+				<img src="images/close.svg" alt="close">
+			</button>
+			<div class="modal__content">
+				<h3 class="padding text-center modal__title__dostavka">Выберите службу доставки.</h3>
+			<div class="articles margin_null">
+				<div class="articles__col">
+					<div class="articles__item-dostavka">
+						<div class="articles__header">
+							 
+							 <a href="#">
+							 	<img class="articles__photo" src="images/dostavka/delivery.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title padding-left"><a href="https://www.delivery-club.ru/srv/Saperavi_vlg">Delivery club</a></h4>
+							<div class="articles__text text-left padding-left"> 
+								
+								<p>
+									<b>Районы для доставки:</b></br>
+									Центральный, Ворошиловский.</br>
+									<b>Время доставки:</b></br> 
+									до 60 мин.</br> 
+									<b>Минимальная сумма:</b></br> м
+									от 700 ₽.</br> 
+								</p>
+								<a class="btn btn--sm" href="https://www.delivery-club.ru/srv/Saperavi_vlg">Заказать</a>
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="articles__col">
+					<div class="articles__item-dostavka">
+						<div class="articles__header">
+							 
+							 <a href="#">
+							 	<img class="articles__photo" src="images/dostavka/BaMaKVAsFeg.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title padding-left"><a href="http://volgograd.paro-hot.ru/saperavi">Parohot</a></h4>
+							<div class="articles__text text-left padding-left"> 
+								
+								<p>
+									<b>Районы для доставки:</b></br>
+									любой район.</br>
+									<b>Время доставки:</b></br> 
+									от 60 до 120 минут.</br> 
+									<b>Минимальная сумма:</b></br> 
+									уточняется у операторов.</br> 
+								</p>
+								<a class="btn btn--sm" href="http://volgograd.paro-hot.ru/saperavi">Заказать</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="articles__col">
+					<div class="articles__item-dostavka">
+						<div class="articles__header">
+							 
+							 <a href="#">
+							 	<img class="articles__photo" src="images/dostavka/Иконка_Яндекс.Еды.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title padding-left"><a href="https://eda.yandex/restaurant/saperavi_komsomolskaya_2a">Delivery club</a></h4>
+							<div class="articles__text text-left padding-left"> 
+								
+								<p>
+									<b>Районы для доставки:</b></br>
+									Центральный, Дзержинский.</br>
+									<b>Время доставки:</b></br> 
+									до 60 мин.</br> 
+									<b>Минимальная сумма:</b></br> 
+									нет ограничений</br> 
+								</p>
+								<a class="btn btn--sm" href="https://eda.yandex/restaurant/saperavi_komsomolskaya_2a">Заказать</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+
+
+				
+
+
+				</div>
+			</div> <!--timeline-->
+		</div>
+		</div>
+	</div><!--modal__dialog-->
+</div> <!--modal-->
+
+
+<div class="modal" id="modal_hire_me">
+	<div class="modal_dialog  modal_dialog--sm">
+			
+			<button class="modal__close" type="button" data-close>
+				<img src="images/close.svg" alt="close">
+			</button>
+
+			<div class="contact">
+				<div class="contact__right">
+					<img src="images/MODAL_CALL_ME.jpg">
+				</div>
+				<div class="contact__left">
+					<h3 class="modal__title ">Забронировать стол</h3>
+					<div class="modal__subtitle">Мы свяжимся с вами в течение 30 минут для подтверждения брони</div>
+
+					<!--<ul class="contact__info" >
+						<li class="contact__info-item">
+							<img class="contact__info-icon" src="images/phone.svg" height="14" alt="">
+							+7-937-564-18-25
+						</li>
+						<li class="contact__info-item">
+							<img class="contact__info-icon" src="images/email.svg" height="14" alt="">
+							sklyar.sasha.26@yandex.ru
+						</li>
+					</ul> -->
+			<form class="form"   action="mail.php" method="POST">
+					<div class="form">
+					<!--
+						<div class="form__group">
+							<h4>Date Picker</h4>
+							<div class="bfh-datepicker "></div>
+						</div>
+					-->
+						<div class="form__group">
+							<div>
+							<label class="form__label" for="time">Гостей</label>
+							<input class="form-control" name="gosti" type="text" id="text" placeholder="Гостей" autocomplete="off">
+							</div>
+						</div>
+
+
+						<div class="form__group">
+							<div>
+							<label class="form__label " for="time">Время</label>
+							<input class="form-control margin-right" name="time" type="time" id="time" placeholder="Время" autocomplete="off">
+							</div>
+						</div>
+					</div>	
+
+					<div class="form">
+						<div class="form__group">
+							<div>
+							<label class="form__label " for="time">Имя</label>
+							<input class="form-control" name="name" type="text" id="text" placeholder="Представьтесь" autocomplete="off">
+							</div>
+						</div>
+					</div>	
+
+					<div class="form"> 
+						<div class="form__group">
+						<div>
+						<label class="form__label" for="time">Телефон для связи</label>
+						<input type="text" name="phone" class="form-control bfh-phone " data-format="+7 (ddd) ddd-dd-dd">
+						</div>
+						</div>
+					</div>
+					<div class="form"> 
+					
+							<div class="form__group">
+								<div>
+								<label class="form__label" for="input-email">Напиши</label>
+								<textarea class="form__textarea" name="text" id="input-text" placeholder="Жду вашего сообщения"></textarea>
+								</div>
+						</div>
+					</div>	
+
+						
+						
+						<div class="margin-top">
+							<button class="btn-modal" type="submit">Отправить</button>
+						</div>
+				</form>			
+					
+
+				</div>
+					
+
+			</div><!--contact -->
+		
+	</div><!--modal__dialog-->
+</div> <!--modal-->
+
+<!-- JS -->
+<script src="js/app.js"></script>
+<script src="swiper.min.js"></script>
+<script src="js/slider.js"></script>
+<script type="js/bootstrap-formhelpers-phone.js"></script>
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Bootstrap Form Helpers -->
+<script src="js/bootstrap-formhelpers.min.js"></script>
+
+
+</body>
+</html>

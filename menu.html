@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="default-styles.css">
+	<link rel="shortcut icon" href="images/Logo_Saperavi.svg" type="image/x-icon">
+	<link  href="css/bootstrap-formhelpers.min.css"  rel="stylesheet" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--для адаптаации-->
+	<title>Портфолио</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+</head>
+<body>
+<!-- Header  --> 
+
+	
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="user">
+						<a  href="index.html" ><img src="images/Logo.png " alt="" > </a>
+				</div>
+				
+				<div class="nav" id="nav">
+					<a class="nav__link" href="index.html">Главная</a>
+					<a class="nav__link" href="index.html#about">О кафе</a>
+					<a class="nav__link" href="index.html#news">Новости</a>
+					<a class="nav__link" href="index.html#gallery">Галерея</a>
+					<a class="nav__link nav__link--btn" href="tel:+79375641825">Cвязаться</a>    
+					<!--<a class="nav__link" href="#"> г. Волгоград, ул.Комсомольская, 2А/1</br>+7 (8442) 59-49-39</a>-->
+				</div>
+<!--Разобраться-->
+				<button class="burger" type="button" id="navToggle">
+					<img class="burger_icon" src="images/burger.svg" alt="">
+				</button>
+			</div>
+		</div>
+	</header>
+<!-- Header  --> 
+ 	<section class="intro__menu">
+		<div class="container">
+			<div class="intro__inner__menu">
+				<div class="intro__content__menu">
+					<h1 class="intro__title__menu">Меню</h1>
+					<div class="menu__text ">грузинская и европейская кухня</div>
+				</div>
+				
+			</div>			
+		</div>
+	</section>
+
+
+	<!-- Works -->
+	<div class="works">
+		<div class="container">
+			<div class="works__nav">
+				<a class="works__nav-link" href="#" data-filter="all">Все</a>
+				<a class="works__nav-link" href="#" data-filter="Xach">Грузинская выпечка</a>
+				<a class="works__nav-link" href="#" data-filter="Salat">Салаты</a>
+				<a class="works__nav-link" href="#" data-filter="Desert">Десерты</a>
+				<a class="works__nav-link" href="#" data-filter="Gorychee_b">Горячие блюда</a>
+				<a class="works__nav-link" href="#" data-filter="Gorychee_z">Горячие закуски</a>
+				<a class="works__nav-link" href="#" data-filter="Supe">Супы</a>
+			</div>
+
+			<div class="portfolio" id="portfolio">	
+				<div class="portfolio__col" data-cat="Xach">
+					<div class="work">
+						<img class="work__image" src="images/menu/Xach_K.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Грузинская выпечка</div>
+							<div class="work__tittle">
+								Хачапури Кохи
+								<div class="work__date" >270 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Salat">
+					<div class="work">
+						<img class="work__image" src="images/menu/Salat_Ricca.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Салат</div>
+							<div class="work__tittle">
+								Салат Рицца
+								<div class="work__date" >290 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Xach">
+					<div class="work">
+						<img class="work__image" src="images/menu/Xach_4.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Грузинская выпечка</div>
+							<div class="work__tittle">
+								Хачапури 4 сыра
+								<div class="work__date" >270 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Desert">
+					<div class="work">
+						<img class="work__image" src="images/menu/Desert_saperavi.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Десерт</div>
+							<div class="work__tittle">
+								Десерт Саперави
+								<div class="work__date" >200 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Salat">
+					<div class="work">
+						<img class="work__image" src="images/menu/Salat_Tamriko.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Салат</div>
+							<div class="work__tittle">
+								Салат Тамрико
+								<div class="work__date" >270 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+								<div class="portfolio__col" data-cat="Desert">
+					<div class="work">
+						<img class="work__image" src="images/menu/Desert_apple.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Десерты</div>
+							<div class="work__tittle">
+								Яблочный Крамбл
+								<div class="work__date" >260 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Salat">
+					<div class="work">
+						<img class="work__image" src="images/menu/Salat_batumi.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Салат</div>
+							<div class="work__tittle">
+								Ламара
+								<div class="work__date" >480 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Salat">
+					<div class="work">
+						<img class="work__image" src="images/menu/Salat_cezar_gruz.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Салат</div>
+							<div class="work__tittle">
+								Цезарь по грузински
+								<div class="work__date" >330 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Salat">
+					<div class="work">
+						<img class="work__image" src="images/menu/Salat_Tamriko.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Салат</div>
+							<div class="work__tittle">
+								Тамрико
+								<div class="work__date" >360 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Gorychee_b">
+					<div class="work">
+						<img class="work__image" src="images/menu/Гор. блюдо Кабулети.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Горячее блюдо</div>
+							<div class="work__tittle">
+								Кобулети
+								<div class="work__date" >380 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Gorychee_z">
+					<div class="work">
+						<img class="work__image" src="images/menu/Гор. зак. Аджабсандали с сыром.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Горячая закуска</div>
+							<div class="work__tittle">
+								Аджабсандали с сыром
+								<div class="work__date" >340 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Gorychee_b">
+					<div class="work">
+						<img class="work__image" src="images/menu/Гор.блюд. Кацо.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Горячее блюдо</div>
+							<div class="work__tittle">
+								Кацо
+								<div class="work__date" >470 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Gorychee_b">
+					<div class="work">
+						<img class="work__image" src="images/menu/гор.блюдо Генацвале.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Горячее блюдо</div>
+							<div class="work__tittle">
+								Генацвали
+								<div class="work__date" >480 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Gorychee_b">
+					<div class="work">
+						<img class="work__image" src="images/menu/Гор.блюдо Гурули.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Горячее блюдо</div>
+							<div class="work__tittle">
+								Гурули
+								<div class="work__date" >510 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Gorychee_b">
+					<div class="work">
+						<img class="work__image" src="images/menu/гор.блюдо Кинто.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Горячее блюдо</div>
+							<div class="work__tittle">
+								Кинто
+								<div class="work__date" >510 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Gorychee_z">
+					<div class="work">
+						<img class="work__image" src="images/menu/Гор.зак. Картофель под сыром и беконом.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Горячая закуска</div>
+							<div class="work__tittle">
+								Картофель под сыром и беконом
+								<div class="work__date" >180 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Gorychee_b">
+					<div class="work">
+						<img class="work__image" src="images/menu/Свинина под сливочным соусом.png" alt="">
+						<div class="work__content">
+							<div class="work__cat">Горячее блюдо</div>
+							<div class="work__tittle">
+								Свинина под сливочным соусом
+								<div class="work__date" >480 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio__col" data-cat="Supe">
+					<div class="work">
+						<img class="work__image" src="images/menu/Суп хинкальный.JPG" alt="">
+						<div class="work__content">
+							<div class="work__cat">Cуп</div>
+							<div class="work__tittle">
+								Суп хинкальный
+								<div class="work__date" >220 руб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!--portfolio--> 
+		</div><!--container"-->
+	</div>
+	<!-- Works -->
+
+
+
+
+
+
+
+<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				
+				<div class="footer__credits">
+					<div class="footer__copyright"> 
+						<p>Грузинская и европейская кухня</p>
+						<p>Время работы :</br> Вс-Чт с 11:00 до 24:00 | Пт-Сб 11:00 до 02:00</p>
+						<p>Все права защищены. 2018–2020 &copy; Саперави.</p>
+					</div>
+					
+
+					<div class="footer__social">
+						
+						<a href="#" target="_blank">
+							<img src="images/instagram.svg" height="30" alt="">
+						</a>
+						
+						<p>@saperavivlg</p>
+							
+						
+					</div>
+				</div> <!--footer__credits-->
+
+				<nav class="footer__nav">
+					<a class="footer__nav-link" href="menu.html">Меню</a>
+					<a class="footer__nav-link" href="index.html#about">О кафе</a>
+					<a class="footer__nav-link" href="index.html#news">Новости</a>
+					<a class="footer__nav-link" href="index.html#gallery">Галерея</a>
+					<a class="footer__nav-link footer__nav-link--btn" href="index.html" data-modal="#modal_hire_me">Забронировать стол</a>Забронировать стол</a>
+				</nav>
+
+
+			</div> <!--footer__inner-->
+		</div><!-- container -->
+	</footer>
+
+<!-- Modals -->
+
+<div class="modal"  id="modal_project">
+	<div class="modal_dialog">
+			
+			<button class="modal__close" type="button" data-close>
+				<img src="images/close.svg" alt="close">
+			</button>
+
+		<div class="modal-work">
+			<div class="modal-work__preview">
+				<img class="modal-work__photo"	src="https://placehold.it/790x780" alt="">
+			</div>
+			<div class="modal-work__content">
+				
+				<div class="modal-work__header">
+				<h3 class="modal-work__title">Название проекта</h3>
+				<div class="modal-work__info">Категория <span class="modal-work__info-divider">|</span> 2020</div>
+				</div>
+
+				<div class="modal-work__client">
+					<div class="modal-work__client-title">Клиент:</div>
+					<div class="modal-work__client-company">Название агенства(клиента)</div>
+				</div>
+
+				<div class="modal-work__text">
+					<p>
+						ТЕКСТ текст текст текст текст ВЖДфоыждО ВЖофвОВЩФВщоф вФ 
+						ФЫЩВфвоФДВЫФфывлФЭВЫ
+					</p>
+					<p>
+						ТЕКСТ текст текст текст текст ВЖДфоыждО ВЖофвОВЩФВщоф вФ 
+						ФЫЩВфвоФДВЫФфывлФЭВЫ
+					</p>
+				</div>
+				<div class="modal-work__footer">	
+					<button class="modal-work__btn"	type="button">
+					<img src="images/back.svg" height="12" alt="">
+					Предыдущий
+					</button>
+					<button class="modal-work__btn"	type="button">
+					Следущий
+					<img src="images/next.svg" height="12" alt="">
+					</button>
+				</div>
+			</div><!--modal-work__content-->
+		</div><!--modal-work-->
+
+	</div><!--modal__dialog-->
+</div> <!--modal-->
+
+
+
+<div class="modal" id="modal_dostavka">
+	<div class="modal_dialog">
+			
+			<button class="modal__close" type="button" data-close>
+				<img src="images/close.svg" alt="close">
+			</button>
+			<div class="modal__content">
+				<h3 class="padding text-center">Выберите службу доставки.</h3>
+			<div class="articles margin_null">
+				<div class="articles__col">
+					<div class="articles__item">
+						<div class="articles__header">
+							 
+							 <a href="#">
+							 	<img class="articles__photo" src="images/dostavka/delivery.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title padding-left"><a href="https://www.delivery-club.ru/srv/Saperavi_vlg">Delivery club</a></h4>
+							<div class="articles__text text-left padding-left"> 
+								
+								<p>
+									<b>Районы для доставки:</b></br>
+									Центральный, Ворошиловский.</br>
+									<b>Время доставки:</b></br> 
+									до 60 мин.</br> 
+									<b>Минимальная сумма:</b></br> 
+									от 700 ₽.</br> 
+								</p>
+								<a class="btn btn--sm" href="https://www.delivery-club.ru/srv/Saperavi_vlg">Заказать</a>
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="articles__col">
+					<div class="articles__item">
+						<div class="articles__header">
+							 
+							 <a href="#">
+							 	<img class="articles__photo" src="images/dostavka/BaMaKVAsFeg.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title padding-left"><a href="http://volgograd.paro-hot.ru/saperavi">Parohot</a></h4>
+							<div class="articles__text text-left padding-left"> 
+								
+								<p>
+									<b>Районы для доставки:</b></br>
+									любой район.</br>
+									<b>Время доставки:</b></br> 
+									от 60 до 120 минут.</br> 
+									<b>Минимальная сумма:</b></br> 
+									уточняется у операторов.</br> 
+								</p>
+								<a class="btn btn--sm" href="http://volgograd.paro-hot.ru/saperavi">Заказать</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="articles__col">
+					<div class="articles__item">
+						<div class="articles__header">
+							 
+							 <a href="#">
+							 	<img class="articles__photo" src="images/dostavka/Иконка_Яндекс.Еды.png" alt="">
+							</a>
+						</div>
+						<div class="articles__content">
+							<h4 class="articles__title padding-left"><a href="https://eda.yandex/restaurant/saperavi_komsomolskaya_2a">Delivery club</a></h4>
+							<div class="articles__text text-left padding-left"> 
+								
+								<p>
+									<b>Районы для доставки:</b></br>
+									Центральный, Дзержинский.</br>
+									<b>Время доставки:</b></br> 
+									до 60 мин.</br> 
+									<b>Минимальная сумма:</b></br> 
+									нет ограничений</br> 
+								</p>
+								<a class="btn btn--sm" href="https://eda.yandex/restaurant/saperavi_komsomolskaya_2a">Заказать</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+
+
+				
+
+
+			</div>
+	</div> <!--timeline-->
+</div>
+
+	</div><!--modal__dialog-->
+</div> <!--modal-->
+
+
+<div class="modal" id="modal_hire_me">
+	<div class="modal_dialog  modal_dialog--sm">
+			
+			<button class="modal__close" type="button" data-close>
+				<img src="images/close.svg" alt="close">
+			</button>
+
+			<div class="contact">
+				<div class="contact__right">
+					<img src="images/MODAL_CALL_ME.jpg">
+				</div>
+				<div class="contact__left">
+					<h3 class="modal__title ">Забронировать стол</h3>
+					<div class="modal__subtitle">Мы свяжимся с вами в течение 30 минут для подтверждения брони</div>
+
+					<!--<ul class="contact__info" >
+						<li class="contact__info-item">
+							<img class="contact__info-icon" src="images/phone.svg" height="14" alt="">
+							+7-937-564-18-25
+						</li>
+						<li class="contact__info-item">
+							<img class="contact__info-icon" src="images/email.svg" height="14" alt="">
+							sklyar.sasha.26@yandex.ru
+						</li>
+					</ul> -->
+
+					<form class="form"action="/" method="post">
+					<!--
+						<div class="form__group">
+							<h4>Date Picker</h4>
+							<div class="bfh-datepicker "></div>
+						</div>
+					-->
+						<div class="form__group">
+							<div>
+							<label class="form__label" for="time">Гостей</label>
+							<input class="form-control" name="input-text" type="text" id="text" placeholder="Гостей" autocomplete="off">
+							</div>
+						</div>
+
+
+						<div class="form__group">
+							<div>
+							<label class="form__label " for="time">Время</label>
+							<input class="form-control margin-right" name="input-time" type="time" id="time" placeholder="Время" autocomplete="off">
+							</div>
+						</div>
+					</form>	
+
+					<form class="form"action="/" method="post">
+						<div class="form__group">
+							<div>
+							<label class="form__label " for="time">Имя</label>
+							<input class="form-control" name="input-text" type="text" id="text" placeholder="Представьтесь" autocomplete="off">
+							</div>
+						</div>
+					</form>	
+
+					<form class="form"action="/" method="post">
+						<div class="form__group">
+						<div>
+						<label class="form__label" for="time">Телефон для связи</label>
+						<input type="text" class="form-control bfh-phone " data-format="+7 (ddd) ddd-dd-dd">
+						</div>
+						</div>
+					</form>	
+					<form class="form"action="/" method="post">
+							<div class="form__group">
+								<div>
+								<label class="form__label" for="input-email">Напиши</label>
+								<textarea class="form__textarea" name="input-text" id="input-text" placeholder="Жду вашего сообщения"></textarea>
+								</div>
+						</div>
+					</form>		
+
+						
+						
+						<div class="margin-top">
+							<button class="btn-modal" type="sumbit">Отправить</button>
+						</div>
+						
+					
+
+				</div>
+					
+
+			</div><!--contact -->
+		
+	</div><!--modal__dialog-->
+</div> <!--modal-->
+
+<!-- JS -->
+<script src="js/app.js"></script>
+<script src="swiper.min.js"></script>
+<script src="js/slider.js"></script>
+<script type="js/bootstrap-formhelpers-phone.js"></script>
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Bootstrap Form Helpers -->
+<script src="js/bootstrap-formhelpers.min.js"></script>
+</body>
+</html>

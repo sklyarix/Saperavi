@@ -1,0 +1,79 @@
+// compress: true;
+
+@import  "vars";
+
+html
+{
+	font-size:15px;
+}
+body
+ { 
+ 	margin:0;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 1rem;
+ 	color: #2b2a2c;
+ 	background-color: #f1f1f1;
+
+
+ 	&.no-scroll
+ 		{
+ 			overflow: hidden;
+ 		}
+ } 
+a {
+  color: none;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: none;
+  text-decoration: none;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+h1,h2,h3,h4,h5,h6
+{
+	margin:0;
+}	
+
+.form-control
+{
+	max-width: 150px;
+	margin-right: 10px;
+}
+.show {
+    display: flex!important ;
+}
+*,
+*:before,
+*:after{
+	box-sizing:border-box; /* алгоритм подсчета размера, т.е. все pading будут идти во внутрь и не будут меняться размеры блоков */
+}
+
+/*Block*/
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/user";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/social";
+@import "blocks/btn";
+@import "blocks/works";
+@import "blocks/portfolio";
+@import "blocks/work";
+@import "blocks/helpers";/*по центру выравнивает*/
+@import "blocks/about"; 
+@import "blocks/reviews"; 
+@import "blocks/news";
+@import "blocks/articles";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/modal-work";
+@import "blocks/timeline";
+@import "blocks/progress-bar";
+@import "blocks/contact";
+@import "blocks/form";
+@import "blocks/slider";
+@import "blocks/burger";
